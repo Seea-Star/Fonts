@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonts Catalog — Cosmic-S</title>
+  
+  <style>
+    /* RESET & BASE STYLES */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #1d2021;
+      color: #ebdbb2;
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 30px 15px;
+      line-height: 1.5;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 2px dashed #504945;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #fabd2f;
+      margin-bottom: 8px;
+    }
+
+    p.subtitle {
+      color: #a89984;
+      font-size: 0.95rem;
+    }
+
+    /* CATALOG GRID */
+    .catalog-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    /* CARD FONT */
+    .font-card {
+      background-color: #282828;
+      border: 1px solid #3c3836;
+      border-radius: 10px;
+      padding: 20px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .font-card:hover {
+      border-color: #d79921;
+      transform: translateY(-2px);
+    }
+
+    .font-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #3c3836;
+      padding-bottom: 8px;
+    }
+
+    .font-name {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #83a598;
+    }
+
+    .font-file {
+      font-size: 0.8rem;
+      color: #928374;
+      background: #1d2021;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* TESTO DI ANTEPRIMA */
+    .preview-text {
+      font-size: 1.8rem;
+      color: #fbf1c7;
+      word-break: break-word;
+    }
+
+    /* ==========================================================================
+       DEFINIZIONE DEI FONT DI GITHUB (@font-face)
+       ========================================================================== */
+    @font-face { font-family: 'AmoreChristmas'; src: url('Amore Christmas.otf') format('opentype'); }
+    @font-face { font-family: 'AnakManja'; src: url('Anak Manja.otf') format('opentype'); }
+    @font-face { font-family: 'CreamCandy'; src: url('Cream Candy.otf') format('opentype'); }
+    @font-face { font-family: 'DancingScript-Bold-Otf'; src: url('DancingScript-Bold.otf') format('opentype'); }
+    @font-face { font-family: 'DancingScript-Bold-Ttf'; src: url('DancingScript-Bold.ttf') format('truetype'); }
+    @font-face { font-family: 'DancingScript-Regular'; src: url('DancingScript-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'DancingScript-Variable'; src: url('DancingScript-Variable.ttf') format('truetype'); }
+    @font-face { font-family: 'MoreSugar-Extras'; src: url('MoreSugar-Extras.otf') format('opentype'); }
+    @font-face { font-family: 'MoreSugar-Regular'; src: url('MoreSugar-Regular.otf') format('opentype'); }
+    @font-face { font-family: 'MoreSugar-Thin'; src: url('MoreSugar-Thin.otf') format('opentype'); }
+    @font-face { font-family: 'Muthiara'; src: url('Muthiara demo version.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes-Bold'; src: url('Papernotes Bold.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes-Sketch'; src: url('Papernotes Sketch.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes'; src: url('Papernotes.otf') format('opentype'); }
+    @font-face { font-family: 'PizzaTime'; src: url('Pizza Time.otf') format('opentype'); }
+    @font-face { font-family: 'Starshines-Italic'; src: url('Starshines Italic.otf') format('opentype'); }
+    @font-face { font-family: 'Starshines'; src: url('Starshines.otf') format('opentype'); }
+    @font-face { font-family: 'StayWithMe'; src: url('Stay With Me.otf') format('opentype'); }
+    @font-face { font-family: 'Striper-Otf'; src: url('Striper-Regular.otf') format('opentype'); }
+    @font-face { font-family: 'Striper-Ttf'; src: url('Striper-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Vogue'; src: url('Vogue-Regular.otf') format('opentype'); }
+    @font-face { font-family: 'Adelia'; src: url('adelia alternate.otf') format('opentype'); }
+    @font-face { font-family: 'Modernline-Bold'; src: url('modernline bold.otf') format('opentype'); }
+    @font-face { font-family: 'Modernline'; src: url('modernline.otf') format('opentype'); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Cosmic-S Fonts Catalog</h1>
+    <p class="subtitle">Vetrina interattiva di tutti i font personali per titoli, storie e diario</p>
+  </header>
+
+  <main class="catalog-container">
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Amore Christmas</span>
+        <span class="font-file">Amore Christmas.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'AmoreChristmas', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Anak Manja</span>
+        <span class="font-file">Anak Manja.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'AnakManja', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Cream Candy</span>
+        <span class="font-file">Cream Candy.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'CreamCandy', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Dancing Script (Bold OTF)</span>
+        <span class="font-file">DancingScript-Bold.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'DancingScript-Bold-Otf', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Dancing Script (Bold TTF)</span>
+        <span class="font-file">DancingScript-Bold.ttf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'DancingScript-Bold-Ttf', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Dancing Script (Regular)</span>
+        <span class="font-file">DancingScript-Regular.ttf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'DancingScript-Regular', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Dancing Script (Variable)</span>
+        <span class="font-file">DancingScript-Variable.ttf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'DancingScript-Variable', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">More Sugar (Extras)</span>
+        <span class="font-file">MoreSugar-Extras.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'MoreSugar-Extras', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">More Sugar (Regular)</span>
+        <span class="font-file">MoreSugar-Regular.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'MoreSugar-Regular', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">More Sugar (Thin)</span>
+        <span class="font-file">MoreSugar-Thin.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'MoreSugar-Thin', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Muthiara Demo</span>
+        <span class="font-file">Muthiara demo version.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Muthiara', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Papernotes (Bold)</span>
+        <span class="font-file">Papernotes Bold.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Papernotes-Bold', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Papernotes (Sketch)</span>
+        <span class="font-file">Papernotes Sketch.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Papernotes-Sketch', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Papernotes (Regular)</span>
+        <span class="font-file">Papernotes.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Papernotes', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Pizza Time</span>
+        <span class="font-file">Pizza Time.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'PizzaTime', fantasy;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Starshines (Italic)</span>
+        <span class="font-file">Starshines Italic.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Starshines-Italic', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Starshines (Regular)</span>
+        <span class="font-file">Starshines.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Starshines', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Stay With Me</span>
+        <span class="font-file">Stay With Me.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'StayWithMe', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Striper (OTF)</span>
+        <span class="font-file">Striper-Regular.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Striper-Otf', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Striper (TTF)</span>
+        <span class="font-file">Striper-Regular.ttf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Striper-Ttf', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Vogue</span>
+        <span class="font-file">Vogue-Regular.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Vogue', sans-serif;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Adelia Alternate</span>
+        <span class="font-file">adelia alternate.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Adelia', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Modernline (Bold)</span>
+        <span class="font-file">modernline bold.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Modernline-Bold', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+    <div class="font-card">
+      <div class="font-info">
+        <span class="font-name">Modernline (Regular)</span>
+        <span class="font-file">modernline.otf</span>
+      </div>
+      <div class="preview-text" style="font-family: 'Modernline', cursive;">
+        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
