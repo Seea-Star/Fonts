@@ -6,7 +6,6 @@
   <title>Fonts Catalog — Cosmic-S</title>
   
   <style>
-    /* RESET & BASE STYLES */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -39,7 +38,6 @@
       font-size: 0.95rem;
     }
 
-    /* CATALOG GRID */
     .catalog-container {
       max-width: 900px;
       margin: 0 auto;
@@ -48,7 +46,6 @@
       gap: 20px;
     }
 
-    /* CARD FONT */
     .font-card {
       background-color: #282828;
       border: 1px solid #3c3836;
@@ -85,7 +82,6 @@
       border-radius: 4px;
     }
 
-    /* TESTO DI ANTEPRIMA */
     .preview-text {
       font-size: 1.8rem;
       color: #fbf1c7;
@@ -93,282 +89,202 @@
     }
 
     /* ==========================================================================
-       DEFINIZIONE DEI FONT DI GITHUB (@font-face)
+       DEFINIZIONE DI TUTTI I FONT (@font-face)
        ========================================================================== */
     @font-face { font-family: 'AmoreChristmas'; src: url('Amore Christmas.otf') format('opentype'); }
-    @font-face { font-family: 'AnakManja'; src: url('Anak Manja.otf') format('opentype'); }
+    @font-face { font-family: 'AmvLipi'; src: url('AmvLipi.ttf') format('truetype'); }
+    @font-face { font-family: 'AnakManjaOtf'; src: url('Anak Manja.otf') format('opentype'); }
+    @font-face { font-family: 'AnakManjaTtf'; src: url('Anak Manja.ttf') format('truetype'); }
+    @font-face { font-family: 'Aoeee'; src: url('Aoeee.ttf') format('truetype'); }
+    @font-face { font-family: 'Caveat-Bold'; src: url('Caveat-Bold.ttf') format('truetype'); }
+    @font-face { font-family: 'Caveat-Medium'; src: url('Caveat-Medium.ttf') format('truetype'); }
+    @font-face { font-family: 'Caveat-Regular'; src: url('Caveat-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Caveat-SemiBold'; src: url('Caveat-SemiBold.ttf') format('truetype'); }
+    @font-face { font-family: 'Caveat-Variable'; src: url('Caveat-VariableFont_wght.ttf') format('truetype'); }
+    @font-face { font-family: 'ChubbyRelief'; src: url('Chubby Relief.ttf') format('truetype'); }
     @font-face { font-family: 'CreamCandy'; src: url('Cream Candy.otf') format('opentype'); }
+    @font-face { font-family: 'CuteNotes'; src: url('Cute Notes.ttf') format('truetype'); }
     @font-face { font-family: 'DancingScript-Bold-Otf'; src: url('DancingScript-Bold.otf') format('opentype'); }
     @font-face { font-family: 'DancingScript-Bold-Ttf'; src: url('DancingScript-Bold.ttf') format('truetype'); }
     @font-face { font-family: 'DancingScript-Regular'; src: url('DancingScript-Regular.ttf') format('truetype'); }
     @font-face { font-family: 'DancingScript-Variable'; src: url('DancingScript-Variable.ttf') format('truetype'); }
-    @font-face { font-family: 'MoreSugar-Extras'; src: url('MoreSugar-Extras.otf') format('opentype'); }
-    @font-face { font-family: 'MoreSugar-Regular'; src: url('MoreSugar-Regular.otf') format('opentype'); }
-    @font-face { font-family: 'MoreSugar-Thin'; src: url('MoreSugar-Thin.otf') format('opentype'); }
+    @font-face { font-family: 'HelveticaPunk'; src: url('Helvetica Punk.ttf') format('truetype'); }
+    @font-face { font-family: 'HughIsLife'; src: url('Hugh is Life Personal Use .ttf') format('truetype'); }
+    @font-face { font-family: 'LmpTaran'; src: url('LMP-TARAN.ttf') format('truetype'); }
+    @font-face { font-family: 'MoreSugar-Extras-Otf'; src: url('MoreSugar-Extras.otf') format('opentype'); }
+    @font-face { font-family: 'MoreSugar-Extras-Ttf'; src: url('MoreSugar-Extras.ttf') format('truetype'); }
+    @font-face { font-family: 'MoreSugar-Regular-Otf'; src: url('MoreSugar-Regular.otf') format('opentype'); }
+    @font-face { font-family: 'MoreSugar-Regular-Ttf'; src: url('MoreSugar-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'MoreSugar-Thin-Otf'; src: url('MoreSugar-Thin.otf') format('opentype'); }
+    @font-face { font-family: 'MoreSugar-Thin-Ttf'; src: url('MoreSugar-Thin.ttf') format('truetype'); }
     @font-face { font-family: 'Muthiara'; src: url('Muthiara demo version.otf') format('opentype'); }
-    @font-face { font-family: 'Papernotes-Bold'; src: url('Papernotes Bold.otf') format('opentype'); }
-    @font-face { font-family: 'Papernotes-Sketch'; src: url('Papernotes Sketch.otf') format('opentype'); }
-    @font-face { font-family: 'Papernotes'; src: url('Papernotes.otf') format('opentype'); }
+    @font-face { font-family: 'Porkh'; src: url('PORKH___.ttf') format('truetype'); }
+    @font-face { font-family: 'Porkys'; src: url('PORKYS_T.ttf') format('truetype'); }
+    @font-face { font-family: 'Papernotes-Bold-Otf'; src: url('Papernotes Bold.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes-Bold-Ttf'; src: url('Papernotes Bold.ttf') format('truetype'); }
+    @font-face { font-family: 'Papernotes-Sketch-Otf'; src: url('Papernotes Sketch.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes-Sketch-Ttf'; src: url('Papernotes Sketch.ttf') format('truetype'); }
+    @font-face { font-family: 'Papernotes-Otf'; src: url('Papernotes.otf') format('opentype'); }
+    @font-face { font-family: 'Papernotes-Ttf'; src: url('Papernotes.ttf') format('truetype'); }
     @font-face { font-family: 'PizzaTime'; src: url('Pizza Time.otf') format('opentype'); }
-    @font-face { font-family: 'Starshines-Italic'; src: url('Starshines Italic.otf') format('opentype'); }
-    @font-face { font-family: 'Starshines'; src: url('Starshines.otf') format('opentype'); }
+    @font-face { font-family: 'Prabhki'; src: url('Prabhki.ttf') format('truetype'); }
+    @font-face { font-family: 'RobloxFont'; src: url('RobloxFont-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Saman'; src: url('SAMAN___.ttf') format('truetype'); }
+    @font-face { font-family: 'Starshines-Italic-Otf'; src: url('Starshines Italic.otf') format('opentype'); }
+    @font-face { font-family: 'Starshines-Italic-Ttf'; src: url('Starshines Italic.ttf') format('truetype'); }
+    @font-face { font-family: 'Starshines-Otf'; src: url('Starshines.otf') format('opentype'); }
+    @font-face { font-family: 'Starshines-Ttf'; src: url('Starshines.ttf') format('truetype'); }
     @font-face { font-family: 'StayWithMe'; src: url('Stay With Me.otf') format('opentype'); }
     @font-face { font-family: 'Striper-Otf'; src: url('Striper-Regular.otf') format('opentype'); }
     @font-face { font-family: 'Striper-Ttf'; src: url('Striper-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Tanker'; src: url('Tanker-Regular.ttf') format('truetype'); }
     @font-face { font-family: 'Vogue'; src: url('Vogue-Regular.otf') format('opentype'); }
-    @font-face { font-family: 'Adelia'; src: url('adelia alternate.otf') format('opentype'); }
+    @font-face { font-family: 'Adelia-Otf'; src: url('adelia alternate.otf') format('opentype'); }
+    @font-face { font-family: 'Adelia-Ttf'; src: url('adelia.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic1'; src: url('karmic_1.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic3'; src: url('karmic_3.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic4'; src: url('karmic_4.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic5'; src: url('karmic_5.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic7'; src: url('karmic_7.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic8'; src: url('karmic_8.ttf') format('truetype'); }
+    @font-face { font-family: 'Karmic9'; src: url('karmic_9.ttf') format('truetype'); }
     @font-face { font-family: 'Modernline-Bold'; src: url('modernline bold.otf') format('opentype'); }
     @font-face { font-family: 'Modernline'; src: url('modernline.otf') format('opentype'); }
+    @font-face { font-family: 'Rupe0'; src: url('rupe__0.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe1'; src: url('rupe__1.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe2'; src: url('rupe__2.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe3'; src: url('rupe__3.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe4'; src: url('rupe__4.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe5'; src: url('rupe__5.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe6'; src: url('rupe__6.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe7'; src: url('rupe__7.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe8'; src: url('rupe__8.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupe9'; src: url('rupe__9.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupeb6'; src: url('rupe_b_6.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupeb7'; src: url('rupe_b_7.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupeb8'; src: url('rupe_b_8.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupeb9'; src: url('rupe_b_9.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo2'; src: url('rupe_bo2.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo3'; src: url('rupe_bo3.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo4'; src: url('rupe_bo4.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo5'; src: url('rupe_bo5.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo6'; src: url('rupe_bo6.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo7'; src: url('rupe_bo7.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo8'; src: url('rupe_bo8.ttf') format('truetype'); }
+    @font-face { font-family: 'Rupebo9'; src: url('rupe_bo9.ttf') format('truetype'); }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>✨ Cosmic-S Fonts Catalog</h1>
-    <p class="subtitle">Vetrina interattiva di tutti i font personali per titoli, storie e diario</p>
+    <h1>✨ Cosmic-S Complete Fonts Catalog</h1>
+    <p class="subtitle">Tutti i font caricati nella repository in ordine</p>
   </header>
 
   <main class="catalog-container">
 
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Amore Christmas</span>
-        <span class="font-file">Amore Christmas.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'AmoreChristmas', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
+    <!-- Generazione automatica di tutte le card -->
+    <script>
+      const fontsList = [
+        { name: "Amore Christmas", file: "Amore Christmas.otf", family: "AmoreChristmas" },
+        { name: "Amv Lipi", file: "AmvLipi.ttf", family: "AmvLipi" },
+        { name: "Anak Manja (OTF)", file: "Anak Manja.otf", family: "AnakManjaOtf" },
+        { name: "Anak Manja (TTF)", file: "Anak Manja.ttf", family: "AnakManjaTtf" },
+        { name: "Aoeee", file: "Aoeee.ttf", family: "Aoeee" },
+        { name: "Caveat Bold", file: "Caveat-Bold.ttf", family: "Caveat-Bold" },
+        { name: "Caveat Medium", file: "Caveat-Medium.ttf", family: "Caveat-Medium" },
+        { name: "Caveat Regular", file: "Caveat-Regular.ttf", family: "Caveat-Regular" },
+        { name: "Caveat SemiBold", file: "Caveat-SemiBold.ttf", family: "Caveat-SemiBold" },
+        { name: "Caveat Variable", file: "Caveat-VariableFont_wght.ttf", family: "Caveat-Variable" },
+        { name: "Chubby Relief", file: "Chubby Relief.ttf", family: "ChubbyRelief" },
+        { name: "Cream Candy", file: "Cream Candy.otf", family: "CreamCandy" },
+        { name: "Cute Notes", file: "Cute Notes.ttf", family: "CuteNotes" },
+        { name: "Dancing Script Bold (OTF)", file: "DancingScript-Bold.otf", family: "DancingScript-Bold-Otf" },
+        { name: "Dancing Script Bold (TTF)", file: "DancingScript-Bold.ttf", family: "DancingScript-Bold-Ttf" },
+        { name: "Dancing Script Regular", file: "DancingScript-Regular.ttf", family: "DancingScript-Regular" },
+        { name: "Dancing Script Variable", file: "DancingScript-Variable.ttf", family: "DancingScript-Variable" },
+        { name: "Helvetica Punk", file: "Helvetica Punk.ttf", family: "HelveticaPunk" },
+        { name: "Hugh is Life", file: "Hugh is Life Personal Use .ttf", family: "HughIsLife" },
+        { name: "LMP Taran", file: "LMP-TARAN.ttf", family: "LmpTaran" },
+        { name: "More Sugar Extras (OTF)", file: "MoreSugar-Extras.otf", family: "MoreSugar-Extras-Otf" },
+        { name: "More Sugar Extras (TTF)", file: "MoreSugar-Extras.ttf", family: "MoreSugar-Extras-Ttf" },
+        { name: "More Sugar Regular (OTF)", file: "MoreSugar-Regular.otf", family: "MoreSugar-Regular-Otf" },
+        { name: "More Sugar Regular (TTF)", file: "MoreSugar-Regular.ttf", family: "MoreSugar-Regular-Ttf" },
+        { name: "More Sugar Thin (OTF)", file: "MoreSugar-Thin.otf", family: "MoreSugar-Thin-Otf" },
+        { name: "More Sugar Thin (TTF)", file: "MoreSugar-Thin.ttf", family: "MoreSugar-Thin-Ttf" },
+        { name: "Muthiara Demo", file: "Muthiara demo version.otf", family: "Muthiara" },
+        { name: "Porkh", file: "PORKH___.ttf", family: "Porkh" },
+        { name: "Porkys", file: "PORKYS_T.ttf", family: "Porkys" },
+        { name: "Papernotes Bold (OTF)", file: "Papernotes Bold.otf", family: "Papernotes-Bold-Otf" },
+        { name: "Papernotes Bold (TTF)", file: "Papernotes Bold.ttf", family: "Papernotes-Bold-Ttf" },
+        { name: "Papernotes Sketch (OTF)", file: "Papernotes Sketch.otf", family: "Papernotes-Sketch-Otf" },
+        { name: "Papernotes Sketch (TTF)", file: "Papernotes Sketch.ttf", family: "Papernotes-Sketch-Ttf" },
+        { name: "Papernotes (OTF)", file: "Papernotes.otf", family: "Papernotes-Otf" },
+        { name: "Papernotes (TTF)", file: "Papernotes.ttf", family: "Papernotes-Ttf" },
+        { name: "Pizza Time", file: "Pizza Time.otf", family: "PizzaTime" },
+        { name: "Prabhki", file: "Prabhki.ttf", family: "Prabhki" },
+        { name: "Roblox Font", file: "RobloxFont-Regular.ttf", family: "RobloxFont" },
+        { name: "Saman", file: "SAMAN___.ttf", family: "Saman" },
+        { name: "Starshines Italic (OTF)", file: "Starshines Italic.otf", family: "Starshines-Italic-Otf" },
+        { name: "Starshines Italic (TTF)", file: "Starshines Italic.ttf", family: "Starshines-Italic-Ttf" },
+        { name: "Starshines (OTF)", file: "Starshines.otf", family: "Starshines-Otf" },
+        { name: "Starshines (TTF)", file: "Starshines.ttf", family: "Starshines-Ttf" },
+        { name: "Stay With Me", file: "Stay With Me.otf", family: "StayWithMe" },
+        { name: "Striper (OTF)", file: "Striper-Regular.otf", family: "Striper-Otf" },
+        { name: "Striper (TTF)", file: "Striper-Regular.ttf", family: "Striper-Ttf" },
+        { name: "Tanker", file: "Tanker-Regular.ttf", family: "Tanker" },
+        { name: "Vogue", file: "Vogue-Regular.otf", family: "Vogue" },
+        { name: "Adelia Alternate (OTF)", file: "adelia alternate.otf", family: "Adelia-Otf" },
+        { name: "Adelia (TTF)", file: "adelia.ttf", family: "Adelia-Ttf" },
+        { name: "Karmic 1", file: "karmic_1.ttf", family: "Karmic1" },
+        { name: "Karmic 3", file: "karmic_3.ttf", family: "Karmic3" },
+        { name: "Karmic 4", file: "karmic_4.ttf", family: "Karmic4" },
+        { name: "Karmic 5", file: "karmic_5.ttf", family: "Karmic5" },
+        { name: "Karmic 7", file: "karmic_7.ttf", family: "Karmic7" },
+        { name: "Karmic 8", file: "karmic_8.ttf", family: "Karmic8" },
+        { name: "Karmic 9", file: "karmic_9.ttf", family: "Karmic9" },
+        { name: "Modernline Bold", file: "modernline bold.otf", family: "Modernline-Bold" },
+        { name: "Modernline Regular", file: "modernline.otf", family: "Modernline" },
+        { name: "Rupe 0", file: "rupe__0.ttf", family: "Rupe0" },
+        { name: "Rupe 1", file: "rupe__1.ttf", family: "Rupe1" },
+        { name: "Rupe 2", file: "rupe__2.ttf", family: "Rupe2" },
+        { name: "Rupe 3", file: "rupe__3.ttf", family: "Rupe3" },
+        { name: "Rupe 4", file: "rupe__4.ttf", family: "Rupe4" },
+        { name: "Rupe 5", file: "rupe__5.ttf", family: "Rupe5" },
+        { name: "Rupe 6", file: "rupe__6.ttf", family: "Rupe6" },
+        { name: "Rupe 7", file: "rupe__7.ttf", family: "Rupe7" },
+        { name: "Rupe 8", file: "rupe__8.ttf", family: "Rupe8" },
+        { name: "Rupe 9", file: "rupe__9.ttf", family: "Rupe9" },
+        { name: "Rupe B 6", file: "rupe_b_6.ttf", family: "Rupeb6" },
+        { name: "Rupe B 7", file: "rupe_b_7.ttf", family: "Rupeb7" },
+        { name: "Rupe B 8", file: "rupe_b_8.ttf", family: "Rupeb8" },
+        { name: "Rupe B 9", file: "rupe_b_9.ttf", family: "Rupeb9" },
+        { name: "Rupe BO 2", file: "rupe_bo2.ttf", family: "Rupebo2" },
+        { name: "Rupe BO 3", file: "rupe_bo3.ttf", family: "Rupebo3" },
+        { name: "Rupe BO 4", file: "rupe_bo4.ttf", family: "Rupebo4" },
+        { name: "Rupe BO 5", file: "rupe_bo5.ttf", family: "Rupebo5" },
+        { name: "Rupe BO 6", file: "rupe_bo6.ttf", family: "Rupebo6" },
+        { name: "Rupe BO 7", file: "rupe_bo7.ttf", family: "Rupebo7" },
+        { name: "Rupe BO 8", file: "rupe_bo8.ttf", family: "Rupebo8" },
+        { name: "Rupe BO 9", file: "rupe_bo9.ttf", family: "Rupebo9" }
+      ];
 
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Anak Manja</span>
-        <span class="font-file">Anak Manja.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'AnakManja', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Cream Candy</span>
-        <span class="font-file">Cream Candy.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'CreamCandy', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Dancing Script (Bold OTF)</span>
-        <span class="font-file">DancingScript-Bold.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'DancingScript-Bold-Otf', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Dancing Script (Bold TTF)</span>
-        <span class="font-file">DancingScript-Bold.ttf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'DancingScript-Bold-Ttf', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Dancing Script (Regular)</span>
-        <span class="font-file">DancingScript-Regular.ttf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'DancingScript-Regular', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Dancing Script (Variable)</span>
-        <span class="font-file">DancingScript-Variable.ttf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'DancingScript-Variable', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">More Sugar (Extras)</span>
-        <span class="font-file">MoreSugar-Extras.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'MoreSugar-Extras', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">More Sugar (Regular)</span>
-        <span class="font-file">MoreSugar-Regular.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'MoreSugar-Regular', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">More Sugar (Thin)</span>
-        <span class="font-file">MoreSugar-Thin.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'MoreSugar-Thin', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Muthiara Demo</span>
-        <span class="font-file">Muthiara demo version.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Muthiara', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Papernotes (Bold)</span>
-        <span class="font-file">Papernotes Bold.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Papernotes-Bold', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Papernotes (Sketch)</span>
-        <span class="font-file">Papernotes Sketch.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Papernotes-Sketch', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Papernotes (Regular)</span>
-        <span class="font-file">Papernotes.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Papernotes', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Pizza Time</span>
-        <span class="font-file">Pizza Time.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'PizzaTime', fantasy;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Starshines (Italic)</span>
-        <span class="font-file">Starshines Italic.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Starshines-Italic', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Starshines (Regular)</span>
-        <span class="font-file">Starshines.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Starshines', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Stay With Me</span>
-        <span class="font-file">Stay With Me.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'StayWithMe', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Striper (OTF)</span>
-        <span class="font-file">Striper-Regular.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Striper-Otf', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Striper (TTF)</span>
-        <span class="font-file">Striper-Regular.ttf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Striper-Ttf', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Vogue</span>
-        <span class="font-file">Vogue-Regular.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Vogue', sans-serif;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Adelia Alternate</span>
-        <span class="font-file">adelia alternate.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Adelia', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Modernline (Bold)</span>
-        <span class="font-file">modernline bold.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Modernline-Bold', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
-
-    <div class="font-card">
-      <div class="font-info">
-        <span class="font-name">Modernline (Regular)</span>
-        <span class="font-file">modernline.otf</span>
-      </div>
-      <div class="preview-text" style="font-family: 'Modernline', cursive;">
-        Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
-      </div>
-    </div>
+      const container = document.querySelector('.catalog-container');
+      fontsList.forEach(font => {
+        const card = document.createElement('div');
+        card.className = 'font-card';
+        card.innerHTML = `
+          <div class="font-info">
+            <span class="font-name">${font.name}</span>
+            <span class="font-file">${font.file}</span>
+          </div>
+          <div class="preview-text" style="font-family: '${font.family}', sans-serif;">
+            Cosmic-S ✨ The quick brown fox jumps over the lazy dog.
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    </script>
 
   </main>
 
